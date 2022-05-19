@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family-text);
+}
+
+body {
+  background-color: #333;
+  color: #f5f5f5;
+  font-family: var(--font-family-text);
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.1rem;
+  text-transform: lowercase;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  text-align: center;
+  position: relative;
+  width: 100vw;
+}
+
+a {
+  color: #43c0ff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
